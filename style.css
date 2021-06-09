@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'dosis', sans-serif;
+    background: rgb(27, 27, 27);
+}
+
+.text{
+    text-transform: capitalize;
+    font-size: 100px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    text-shadow: -3px -2px #fff;
+    text-align: center;
+}
